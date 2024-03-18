@@ -5,6 +5,9 @@
 */
 
 function isAnagram(str1, str2) {
+
+      str1 =  str1.toLowerCase().split("");
+      str2 =  str2.toLowerCase().split("");   
        // Get lengths of both strings
        let n1 = str1.length;
        let n2 = str2.length;
